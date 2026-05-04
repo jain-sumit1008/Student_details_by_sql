@@ -1,0 +1,54 @@
+create database iscca_fsdb;
+use iscca_fsdb;
+
+Create table fsdb_std(Eno varchar (20) primary key , name varchar (25), edu_id varchar (50), 
+mobile_no varchar (12), age int, gender varchar (2), 
+city varchar (25), father_name varchar (50), Father_no varchar (12), year_sem varchar(10));
+
+Create table fsdb_account( Eno varchar (20) , name varchar (25), total_fees int (7), paid int(6), dues int (6), mode varchar (10));
+
+insert into fsdb_std values('24100BTCSFBI17536', 'Aditya Pratap Singh', 'adityapfbi2436@svvv.edu.in', '8817905062',19,'M', 'Ujjain', 'Mr. Jugal Pratap Singh', '9827080154', 'II/IV'),
+ ('24100BTCSFBI17537', 'Akshita Meena', 'akshitamfbi2437@svvv.edu.in', '9301787714',19,'F', 'Indore','Mr. Akshya Meena', '9755112188', 'II/IV'),
+ ('24100BTCSFBI17538', 'Anjali Rathore ', 'anjalirfbi2438@svvv.edu.in', '9926923335',19,'F', 'Indore', 'Mr. Madan Rathore', '9806238885', 'II/IV'),
+ ('24100BTCSFBI17539', 'Athrav Soni', 'athravsfbi2439@svvv.edu.in', '7999286765',19,'M', 'Indore', 'Mr. Anand Soni', '7898785818', 'II/IV'),
+ ('24100BTCSFBI17540', 'Ayush Sen', 'ayushsfbi2440@svvv.edu.in', '9425991642',19,'M', 'Ujjain', 'Mr. Ramesh Sen', '9179519808', 'II/IV'),
+ ('24100BTCSFBI17542', 'Hiral Sharma', 'hiralsfbi2442@svvv.edu.in', '8450051159',19,'F', 'Ujjain', 'Mr. Manish Sharma', '8989440122', 'II/IV'),
+ ('24100BTCSFBI17544', 'Krishna Sagar', 'krishnasfbi2444@svvv.edu.in', '9826610132',19,'M', 'Indore', 'Mr. Jitendra Singh Sagar', '9826610132', 'II/IV'),
+ ('24100BTCSFBI17546', 'Mahee Meena', 'maheemfbi2446@svvv.edu.in', '7389794448',19,'F', 'Indore','Mr. Shatosh Meena', '6263464448', 'II/IV'),
+ ('24100BTCSFBI17547', 'Mahi Rathore', 'mahirfbi2447@svvv.edu.in', '7470854634',19,'F', 'Ujjain', 'Mr. Nilesh Rathore', '9926618959', 'II_IV'),
+ ('24100BTCSFBI17548', 'Pragya Vyas', 'pragyavfbi2448@svvv.edu.in', '9098749448',19,'F', 'Kshipra', 'Mr. Rajesh Vyas', '9009734368', 'II/IV'),
+ ('24100BTCSFBI17549', 'Riddhika Upadhyay', 'riddhikaufbi2449@svvv.edu.in', '7898316674',19,'F', 'Ratlam', 'Dr. Vishwas Uapadhyay', '7898316674', 'II/IV'),
+ ('24100BTCSFBI17550', 'Sakshi Rathore', 'sakshirfbi2450@svvv.edu.in', '9691485058',20,'F', 'Ujjain', 'Mr. Nilesh Rathore', '9926618959', 'II/IV'),
+ ('24100BTCSFBI17551', 'Samiksha Jha', 'samikshajfbi2451@svvv.edu.in', '9981266343',19,'F', 'Indore', 'Mr. Jaykumar Jha ', '7509517409', 'II/IV'),
+ ('24100BTCSFBI17552', 'Sarthak Bajpai', 'sarthakbfbi2452@svvv.edu.in', '8103163083',20,'M', 'Indore', 'Mr. Krishna Kumar Bajpai', '6268031588', 'II/IV'),
+ ('24100BTCSFBI17553', 'Siya Katoch', 'siyakfbi2453@svvv.edu.in', '9630024354',19,'F', 'Himachal Pradesh', 'Mr.Naresh Katoch', '9827540039', 'II/IV'),
+ ('24100BTCSFBI18254', 'Sumit Surana', 'sumitsfbi2454@svvv.edu.in', '9179972092',20,'M', 'Ujjain', 'Mr. Ajit Surana', '9827080021', 'II/IV');
+ 
+ select * from fsdb_std;
+ 
+SELECT DISTINCT *
+FROM fsdb_std;
+
+
+http://edge-http.microsoft.com/captiveportal/generate_204
+
+
+drop table fsdb_std;
+
+
+
+
+6 tables each have 
+
+entry form 
+
+index page
+
+admin page
+
+
+
+
+
+
+
